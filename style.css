@@ -1,0 +1,191 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(251, 241, 225);
+}
+
+
+.container {
+  position: absolute;
+  max-width: 800px;
+  height: 500px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.myRightCtn {
+  position: relative;
+  background-image: linear-gradient(45deg, #e59c14, #9b00e8);
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  color: rgb192, 192, 192;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.myLeftCtn {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  padding-left: 50px;
+}
+
+.myLeftCtn header {
+  color:  #9b00e8;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.row {
+  height: 100%;
+}
+
+.myCard {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+.myLeftCtn .myInput:focus{
+    outline:none;
+}
+.myForm{
+   position: relative; 
+   margin-top:50px;
+}
+
+.myLeftCtn .butt{
+    background:linear-gradient(45deg, #e59c14, #9b00e8);
+    border-radius: 25px;
+    width:200px;
+    padding:8px;
+    height:40px;
+    border:none;
+    margin-top: 10px;
+    color:white;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+
+.myLeftCtn .butt:hover{
+    background:linear-gradient(45deg,  #f33f08, #e56814)
+}
+
+
+.myRightCtn header {
+  color: #fff;
+  font-size: 44px;
+}
+
+.box {
+  position: relative;
+  margin: 20px;
+  margin-bottom: 1000x;
+}
+
+.box p{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    font-weight: 500;
+}
+
+.myLeftCtn .myInput{
+    margin: 10px;
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left:50px;
+    border: none;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+.myLeftCtn .butt:focus{
+    outline:none;
+}
+
+.myLeftCtn .butt.fas{
+position:relative;
+color: rgb(30, 204, 213);
+left:36px;
+}
+
+.butt_out{
+    background: transparent;
+    width:120px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+.butt_out:hover{
+    border: 2px solid #f3d808;
+}
+
+.butt_out:none{
+    outline: none;
+}
+
+.social-icon {
+    margin: 0 0.45rem;
+    text-decoration: none;
+    border-radius: 100%;
+    font-size: 25px;
+    color: #fba506;
+    transition: all 0.5;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  }
+
+  .social-icon:hover {
+    color:  #9b00eb;
+    border-color: #9b00eb;
+  }
+
+
+
+  .socialtext{
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: 500;
+    color:rgb(109, 109, 109);
+  }
+
+  .alert {
+ 
+    width: 1;
+    background: linear-gradient(45deg, #44b927, #4ba10d);
+    color: #fff;
+    padding : 5px;
+    text-align: center;
+    font-size:15px;
+    border-radius: 1px;
+}
+
